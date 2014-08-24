@@ -1,4 +1,4 @@
-## Variables, the data, and any transformations
+## Variables, the data, and transformations
 
 * `features` raw data from "features.txt"
 * `activities` raw data from "activity_labels.txt"
@@ -9,7 +9,7 @@
 * `y_test` raw data from "test/y_test.txt"
 * `subject_test` raw data from "test/subject_test.txt"
 
-* data from train set and test set are combind together to `X`, `y`, and `subject`
+* data from train set and test set are combined together to `X`, `y`, and `subject`
 
 * `Xsub` is subset of `X` only contains features whos name include "-mean()" or "-std()"
 
@@ -17,4 +17,4 @@
 
 * `dataset` is full set of 'X', 'y', and 'subject' bind together row by row
 
-* `tidy` is a summary of 'Xsub' group by 'y' and 'subject', and applay mean to each group
+* `tidy` is a summary of 'Xsub' group by 'y' and 'subject', and applied mean to each group
